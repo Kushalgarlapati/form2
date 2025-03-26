@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="./No-change-in-TSRTC-logo-cl.jpg" alt="" height="40">
+    <h3>TELANGANA STATE ROAD TRANSPORT CORPORATION</h3>
+    <H3>GENERAL BUS PASS APPLICATION</H3>
+</center>
+    <form action="./success.html">
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <label for="name">Name </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" required id="name" maxlength="20" placeholder="Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <label for="fname">Father's Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" required id="fname" maxlength="20" placeholder="Fathers Name"><br><br>
+
+            <label for="dob">Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="gender">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" required name="g" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="g" id="gender">
+            <label for="gender">Female</label><br><br>
+
+            <label for="age">Age as on:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="" required id="age">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="ano">Aadhar No</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" required id="ano" maxlength="12"><br><br>
+            
+            <label for="wno">WhatsApp No:</label>&nbsp;&nbsp;
+            <input type="tel" required id="wno" value="+91" maxlength="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="email">E-Mail Id:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" required id="email"><br><br>
+
+            <label for="photo">Photo</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" required accept=".jpeg,.png">
+
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Residential Address Details</legend>
+
+            <label for="add">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="" required readonly id="add" maxlength="20" placeholder="maxlength is 20 characters"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="dis">District</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" required id="dis">
+                <option  value="--Select--" disabled selected>--Select--</option>
+                <option value="1">Medchal</option>
+                <option value="2">Nizambad</option>
+                <option value="3">Siddipet</option>
+                <option value="4">Adilabad</option>
+                <option value="5">Warangal</option>
+            </select><br><br>
+
+            <label for="mandal">Mandal</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" required id="mandal">
+                <option value="--Select--" disabled selected>--Select--</option>
+                <option value="1">Bachupally</option>
+                <option value="2">Nizampet</option>
+                <option value="3">Pragathi Nagar</option>
+                <option value="4">ECIL</option>
+                <option value="5">Kukatpally</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="vil">Village</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" required id="vil">
+                <option value="--Select--">--Select--</option>
+                <option value="1">Hyderabad</option>
+                <option value="2">Nizampet</option>
+                <option value="3">Jangoan</option>
+                <option value="4">Nirmal</option>
+                <option value="5">Siddipet</option>
+            </select><br><br>
+
+            <label for="pin">Pincode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" required maxlength="6">
+
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Pass Type Details</legend>
+
+            <label for="city" >City</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" required id="city">
+                <option value="--Select--">--Select--</option>
+                <option value="1">Hyderabad</option>
+                <option value="2">Nizampet</option>
+                <option value="3">Jangoan</option>
+                <option value="4">Nirmal</option>
+                <option value="5">Siddipet</option>
+            </select><br><br>
+
+            <label for="ptype">Pass Type</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" required id="ptype">
+                <option value="--Select--" disabled selected>--Select--</option>
+                <option value="1">City Ordinary</option>
+                <option value="2">City Metro Express</option>
+                <option value="3">Express </option>
+
+            </select>
+
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Mode Of Payment & Pass Collection</legend>
+
+            <label for="paymentt">Payment Mode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" required id="paymentt">
+                <option value="--Select--">--Select Payment Mode--</option>
+                <option value="1">Pay At Counter</option>
+                <option value="2">Prepaid via UPI/Card</option>
+            </select><br><br>
+
+            <label for="delivery">Pass Delivery Mode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" id="delivery">
+                <option value="--Select" disabled selected>--Select</option>
+                <option value="1">At counter</option>
+                <option value="2">Online verification</option>
+            </select><br><br>
+
+            <label for="pc">Counter at Which you want to Collect Pass</label>
+            <select name="" required id="pc">
+                <option value="--Select" disabled selected>--Select</option>
+                <option value="1">Kphb</option>
+                <option value="2">Nizampet</option>
+                <option value="3">Jangoan</option>
+                <option value="4">Nirmal</option>
+                <option value="5">Siddipet</option>
+                <option value="6">Medchal</option>
+            </select>
+
+        </fieldset>
+
+        <label for="submit"></label>
+        <center><input type="submit"></center>
+
+        
+    </form>
+</body>
+</html>
